@@ -4,11 +4,6 @@ import Nav from '../components/nav';
 
 export default () => (
   <div>
-
-  </div>
-
-    <style jsx>{`
-      
-    `}</style>
+test
   </div>
 );
