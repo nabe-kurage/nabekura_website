@@ -1,0 +1,52 @@
+//変数
+:root {
+    --color_main: #001328;
+    --color_accent: #04e3ff;
+    --color_back: #fcf9e7;
+  }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Avenir-Heavy",
+        "Helvetica Neue", "Segoe UI", "Arial", "ヒラギノ角ゴ ProN",
+        "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
+        sans-serif;
+    color: hsl(213, 14%, 28%);
+}
+
+h1,
+h2,
+h3,
+p,
+small {
+    cursor: default;
+}
+
+.innerColor {
+    background: #ececec;
+}
+
+.inner {
+    padding: 52px 0 72px;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 1;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    color: var( --color_main);
+    font-family: "Tomorrow", sans-serif;
+    letter-spacing: 4px;
+}
+
+// componentsではクラス名つけた物が反映されない？
+// importすると反映する。もっと良い方法ないか確認
