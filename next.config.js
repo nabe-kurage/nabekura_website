@@ -6,5 +6,6 @@ module.exports = {
       fs: 'empty'
     }
     return config
-  }
+  },
+  assetPrefix: '/nabekura_website',
 };
