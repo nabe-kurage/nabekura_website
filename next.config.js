@@ -1,5 +1,3 @@
-const path = require('path')
-
 module.exports = {
   webpack: (config) => {
     config.node = {
@@ -7,5 +5,5 @@ module.exports = {
     }
     return config
   },
-  assetPrefix: '/nabekura_website',
+  assetPrefix: '/nabekura_website'
 };
