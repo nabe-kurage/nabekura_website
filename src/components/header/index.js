@@ -6,7 +6,7 @@ import styles from "./index.module.scss";
 const Footer = () => {
     return (
         <header className={styles.header}>
-            {/* <Link href="/">
+            <Link href="/">
                 <a className={styles.logoWrapper}>nabekura</a>
             </Link>
             <nav className={styles.nav}>
@@ -16,7 +16,7 @@ const Footer = () => {
                 <Link href="/work">
                     <a className={styles.navItem}>work</a>
                 </Link>
-            </nav> */}
+            </nav>
         </header>
     );
 };
