@@ -8,7 +8,6 @@ import Header from "../components/header";
 
 export default () => (
   <>
-    <Header />
     <div className={styles.mvWrappe}>
       <img className={styles.mv} src="images/kv.jpg" alt="kv" />
       </div>

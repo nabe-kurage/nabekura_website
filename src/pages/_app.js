@@ -11,7 +11,9 @@ export default function MyApp({ Component, pageProps }) {
             href="https://fonts.googleapis.com/css2?family=Righteous&family=Tomorrow:wght@500&display=swap"
             rel="stylesheet"
         />
-    </head>
-    <Component {...pageProps} />
+      </head>
+      <Header />
+      <Component {...pageProps} />
+      <Footer />
   </>;
 }

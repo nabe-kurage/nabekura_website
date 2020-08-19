@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import styles from "./index.module.scss";
 
-const Header = () => {
+const Footer = () => {
     return (
         <header className={styles.header}>
             <Link href="/">
@@ -21,4 +21,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Footer;
