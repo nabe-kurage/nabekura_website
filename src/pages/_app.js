@@ -1,6 +1,9 @@
 import "../style/destyle.scss";
 import "../style/global.scss";
 
+import Header from "../components/header";
+import Footer from "../components/footer";
+
 
 export default function MyApp({ Component, pageProps }) {
   return <>

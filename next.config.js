@@ -5,7 +5,10 @@ module.exports = {
     }
     return config
   },
-  //TODO 変更されているのは確認できたので、github pageでソース確認
-  // touch out/.nojekyll で_のファイルを読めるようにしないといけない
-  assetPrefix: '/nabekura_website'
+  // assetPrefixでルートの変更
+  // nojekyllファイル（空）を表示ルート（static配下）に置く
+  // でgithub pages 表示完了
+
+  // TODO local/dev でつけるつけない分けるようにする
+  // assetPrefix: '/nabekura_website'
 };

@@ -1,0 +1,17 @@
+.mv {
+    width: 100%;
+}
+
+.mvWrappe {
+    height: 280px;
+    overflow: hidden;
+    background: var( --color_main);
+    background: -webkit-linear-gradient(
+        #1cb5e0 10%,
+        var( --color_main)
+    );
+    background: linear-gradient(
+        #1cb5e0,
+        var( --color_main)
+    );
+}
