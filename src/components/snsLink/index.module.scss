@@ -1,9 +1,26 @@
-.innerColor {
-    background: #ececec;
+.snsList {
+    display: flex;
+    justify-content: space-between;
+    width: 580px;
+    margin: auto;
+    margin-top: 48px;
 }
 
-.inner {
-    padding: 52px 0 72px;
+.snsListItem {
+    width: 56px;
+    height: auto;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.snsListImg {
+    width: 100%;
+}
+
+.snsListImgNote {
+    transform: scale(1.8);
 }
 
 .text {

@@ -4,6 +4,7 @@ import styles from "./index.module.scss";
 
 import Mv from "../components/mv";
 import TopFirstText from "../components/top_firstText";
+import SnsLink from "../components/snsLink";
 
 export default () => (
   <>
@@ -11,7 +12,10 @@ export default () => (
       <Mv />
       <div className={`${styles.inner} ${styles.innerColor}`}>
         <TopFirstText />
-      </div>      
+      </div>
+      <div className={styles.inner}>
+        <SnsLink />
+      </div>
     </main>
   </>
 );
