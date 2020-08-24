@@ -37,7 +37,7 @@
     font-weight: bold;
     position: relative;
     text-align: center;
-    color: $color_main;
+    color: var( --color_main);
     font-family: "Tomorrow", sans-serif;
     letter-spacing: 4px;
 }
