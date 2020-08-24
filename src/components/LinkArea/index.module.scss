@@ -1,0 +1,60 @@
+
+.buttonWrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    color: var( --color_accent);
+    font-weight: bold;
+    padding: 12px 32px 12px 24px;
+    display: inline-block;
+    background: var( --color_main);
+    border-radius: 20px;
+    margin-left: auto;
+    transition: all 0.25s;
+    position: relative;
+
+    &:after {
+        width:10px;
+        height:10px;
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 16px;
+        margin: auto;
+        border-top: 2px solid var( --color_accent);
+        border-right: 2px solid var( --color_accent);
+        transform: rotate(45deg);
+        transition: all 0.25s;
+    }
+
+    &:hover {
+        opacity: 0.8;
+
+        &:after {
+            right: 12px;
+        }
+    }
+
+}
+
+.text {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 1;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    color: var( --color_main);
+    font-family: "Tomorrow", sans-serif;
+    letter-spacing: 4px;
+}
