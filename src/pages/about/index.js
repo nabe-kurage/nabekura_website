@@ -45,7 +45,7 @@ export default () => (
 				</div>
 			</div>
 		</section>
-		<CoreValues />
-		<Fascinated />
+		{/* <CoreValues />
+		<Fascinated /> */}
 	</>
 );
