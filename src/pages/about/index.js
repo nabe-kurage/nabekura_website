@@ -6,6 +6,7 @@ import Mv from "../../components/mv";
 import TopFirstText from "../../components/top_firstText";
 import SnsLink from "../../components/snsLink";
 import LinkArea from "../../components/LinkArea";
+import CoreValues from "../../components/CoreValues";
 
 export default () => (
 	<>
@@ -45,7 +46,7 @@ export default () => (
 				</div>
 			</div>
 		</section>
-		{/* <CoreValues />
-		<Fascinated /> */}
+		<CoreValues />
+		{/* <Fascinated /> */}
 	</>
 );
