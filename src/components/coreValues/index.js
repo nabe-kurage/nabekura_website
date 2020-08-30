@@ -3,7 +3,7 @@ import styles from "./index.module.scss";
 
 const CoreValues = () => {
     return (
-        <div className={`${styles.inner} ${styles.innerColor}`}>
+        <>
             <h2 className={styles.title}>core values</h2>
             <p className={styles.text}>軸となる価値観</p>
             <ul className={styles.valuesList}>
@@ -61,7 +61,7 @@ const CoreValues = () => {
                     </div>
                 </li>
             </ul>
-        </div>
+        </>
     );
 };
 
