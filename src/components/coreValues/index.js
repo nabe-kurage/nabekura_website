@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./index.module.scss";
 
+import PrtSectionTitle from "../prt_sectionTitle";
+
 const CoreValues = () => {
     return (
         <>
-            <h2 className={styles.title}>core values</h2>
-            <p className={styles.text}>軸となる価値観</p>
+            <prtSectionTitle title="core values" subtitle="軸となる価値観" />
             <ul className={styles.valuesList}>
                 <li className={styles.valuesListItem}>
                     <div className={styles.valuesListImgWrapper}>
