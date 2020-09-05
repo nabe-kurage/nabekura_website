@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../style/fascinated.scss";
+import styles from "./index.module.scss";
 
 const Corefacinated = () => {
     return (

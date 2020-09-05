@@ -7,6 +7,7 @@ import TopFirstText from "../../components/top_firstText";
 import SnsLink from "../../components/snsLink";
 import LinkArea from "../../components/LinkArea";
 import CoreValues from "../../components/CoreValues";
+import Fascinated from "../../components/Fascinated";
 
 export default () => (
 	<>
