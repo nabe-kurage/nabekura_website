@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./index.module.scss";
 
-const PrtSectionTitle = ({ title, subtitle}) => {
+const SectionTitle = ({ title, subtitle}) => {
     return (
         <>
             <h2 className={styles.title}>{title}</h2>
@@ -11,4 +11,4 @@ const PrtSectionTitle = ({ title, subtitle}) => {
     );
 };
 
-export default PrtSectionTitle;
+export default SectionTitle;

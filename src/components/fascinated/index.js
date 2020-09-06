@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./index.module.scss";
 
+import SectionTitle from "../../components/SectionTitle";
+
 const Corefacinated = () => {
     return (
         <div className={styles.inner}>
-            <h2 className={styles.title}>fascinated</h2>
-            <p className={styles.text}>好きなもの達</p>
+            <SectionTitle title="fascinated" subtitle="好きなもの達" />
             <ul className={styles.facinatedList}>
                 <li className={styles.facinatedListItem}>
                     <div className={styles.facinatedListImgWrapper}>
