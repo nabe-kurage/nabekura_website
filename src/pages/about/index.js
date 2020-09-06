@@ -50,6 +50,8 @@ export default () => (
 		<div className={`${styles.inner} ${styles.innerColor}`}>
 			<CoreValues />
 		</div>
-		<Fascinated />
+		<div className={styles.inner}>
+			<Fascinated />
+		</div>
 	</>
 );

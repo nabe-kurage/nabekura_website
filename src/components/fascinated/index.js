@@ -5,7 +5,7 @@ import SectionTitle from "../../components/SectionTitle";
 
 const Corefacinated = () => {
     return (
-        <div className={styles.inner}>
+        <>
             <SectionTitle title="fascinated" subtitle="好きなもの達" />
             <ul className={styles.facinatedList}>
                 <li className={styles.facinatedListItem}>
@@ -54,7 +54,7 @@ const Corefacinated = () => {
                     </div>
                 </li>
             </ul>
-        </div>
+        </>
     );
 };
 
