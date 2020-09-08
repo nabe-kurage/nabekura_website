@@ -2,10 +2,6 @@ import React from "react";
 
 import styles from "./index.module.scss";
 
-import Mv from "../../components/mv";
-import TopFirstText from "../../components/top_firstText";
-import SnsLink from "../../components/snsLink";
-import LinkArea from "../../components/LinkArea";
 import CoreValues from "../../components/CoreValues";
 import Fascinated from "../../components/Fascinated";
 
