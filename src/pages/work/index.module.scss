@@ -1,0 +1,77 @@
+
+.wrapper {
+    display: flex;
+    max-width: 980px;
+    margin: 80px auto;
+}
+.textWrapper {
+    margin-left: 32px;
+    flex: 1;
+}
+
+.imgWrapper {
+    flex: 1;
+}
+
+.imgInner {
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+    width: 315px;
+    margin-left: auto;
+    height: 100%;
+    border-radius: 8px;
+    position: relative;
+}
+
+.profileImg {
+    width: 280px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.authorName {
+    font-size: 48px;
+    font-weight: bold;
+    color:var( --color_main);
+}
+
+.dscription {
+    margin-top: 48px;
+    padding-top: 48px;
+    border-top: 1px solid #3d4651;
+    line-height: 1.6;
+}
+
+.job {
+    margin-top: 24px;
+}
+
+.snsList {
+    display: flex;
+    margin-top: 24px;
+}
+
+.snsListItem {
+    width: 22px;
+    height: 22px;
+
+    & + & {
+        margin-left: 12px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.innerColor {
+    background: #ececec;
+}
+
+.inner {
+    padding: 52px 0 72px;
+}
