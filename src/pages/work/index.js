@@ -10,6 +10,11 @@ export default () => (
 			<div className={styles.textWrapper}>
 				<p className={styles.authorName}>work</p>
 			</div>
+			<ul>
+				<li>さくひん</li>
+				<li>さくひん</li>
+				<li>さくひん</li>
+			</ul>
 		</section>
 	</>
 );
