@@ -2,13 +2,15 @@ import React from "react";
 
 import styles from "./index.module.scss";
 
+import SectionTitle from "../../components/SectionTitle";
+
 export default () => (
 	<>
 		<section className={styles.wrapper}>
-			<div className={styles.textWrapper}>
-				<p className={styles.authorName}>work</p>
-			</div>
+		<SectionTitle title="work" subtitle="今までの作品" />
 			<ul>
+				<li>さくひん</li>
+				<li>さくひん</li>
 				<li>さくひん</li>
 			</ul>
 		</section>
