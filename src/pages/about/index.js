@@ -15,8 +15,8 @@ export default () => (
 					<li className={styles.snsListItem}>
 						<a href="https://twitter.com/nabe__kurage">
 							<img
-								src="images/snsIcons/sns_twitter.png"
-								alt=""
+								src="/src/images/img_prof.jpg"
+								alt="プロフィール画像"
 							/>
 						</a>
 					</li>
