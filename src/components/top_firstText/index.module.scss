@@ -4,4 +4,10 @@
     font-size: 18px;
     line-height: 2;
     font-weight: bold;
+
+    @media (min-width: 580px) { 
+        font-size: 16px;
+        width: 90%;
+        margin: auto;
+     }
 }

@@ -3,6 +3,10 @@
     justify-content: space-between;
     margin: 48px auto 0;
     max-width: 980px;
+        
+    @media (max-width: 580px) { 
+        display: block;
+    }
 }
 
 .valuesListItem {

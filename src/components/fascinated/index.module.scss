@@ -3,11 +3,19 @@
     justify-content: space-between;
     margin: 48px auto 0;
     max-width: 980px;
+        
+    @media (max-width: 580px) { 
+        display: block;
+    }
 }
 
 .facinatedListItem {
     width: 30%;
     text-align: center;
+            
+    @media (max-width: 580px) { 
+        width: 90%;
+    }
 }
 
 .facinatedListImgWrapper {
