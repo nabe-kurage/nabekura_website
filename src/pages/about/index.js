@@ -13,11 +13,7 @@ export default () => (
 				<p className={styles.job}>Frontend Engineer</p>
 				<ul className={styles.snsList}>
 					<li className={styles.snsListItem}>
-						<a href="https://twitter.com/nabe__kurage">
-							<img
-								src="/src/images/img_prof.jpg"
-								alt="プロフィール画像"
-							/>
+						<a href="https://twitter.com/nabe__kurage">¥
 						</a>
 					</li>
 					<li className={styles.snsListItem}>
