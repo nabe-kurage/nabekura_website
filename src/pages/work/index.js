@@ -9,7 +9,7 @@ export default () => (
 		<SectionTitle title="work" subtitle="" />
 		<section className={styles.wrapper}>
 		<SectionTitle title="Illustration" subtitle="イラスト" />
-			<ul>
+			<ul className={styles.workList}>
 				<li>さくひん</li>
 				<li>さくひん</li>
 				<li>さくひん</li>
@@ -17,7 +17,7 @@ export default () => (
 		</section>
 		<section className={styles.wrapper}>
 		<SectionTitle title="other" subtitle="その他" />
-			<ul>
+			<ul className={styles.workList}>
 				<li>さくひん</li>
 				<li>さくひん</li>
 				<li>さくひん</li>
