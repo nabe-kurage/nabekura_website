@@ -44,4 +44,9 @@
     color: var( --color_main);
     font-family: "Tomorrow", sans-serif;
     letter-spacing: 4px;
+    // TODO:いろんなところに同じコードありすぎ
+    @media screen and (max-width: 480px) {
+        font-size: 28px;
+    }
+
 }

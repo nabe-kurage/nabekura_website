@@ -46,6 +46,10 @@ small {
     color: var( --color_main);
     font-family: "Tomorrow", sans-serif;
     letter-spacing: 4px;
+
+    @media screen and (max-width: 480px) {
+        font-size: 28px;
+    }
 }
 
 // componentsではクラス名つけた物が反映されない？
